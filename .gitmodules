@@ -1,0 +1,6 @@
+[submodule "novnc"]
+	path = novnc
+	url = https://github.com/novnc/noVNC.git
+[submodule "tiny-web-server"]
+	path = tiny-web-server
+	url = https://github.com/shenfeng/tiny-web-server.git
