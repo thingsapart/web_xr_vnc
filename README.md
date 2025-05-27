@@ -1,8 +1,26 @@
 # A browser-based VNC client for XR headsets based on noVNC
 
-The idea is to create a quicker-and-dirty XR desktop client proof of concept. The goal is to get it running on Android with Termux (or the new Android 16 AVM/pKVM Terminal) and a VNC server to have a reasonable VR/XR Linux system in your pocket.
+The idea is to create a quickish-and-dirty XR desktop client proof of concept. The goal is to get it running on Android with Termux (or the new Android 16 AVM/pKVM Terminal) and a VNC server to have a reasonable VR/XR Linux system in your pocket.
+
+Instead of integrating fully with X11/Wayland or display managers, it just takes a (large) VNC view and applies XR view-panning/head-tracking to that. A plan is to eventually allow "breaking up" a single view into tiles to emulate separate desktops if desired.
 
 An Android app is work-in-prorgress, the current app is using Viture XR glasses and Viture SDK to auto-pan the workspace.
+
+# Screenshots
+
+![Curved XR View](https://github.com/thingsapart/web_xr_vnc/blob/main/docs/curved.jpeg?raw=true)
+
+![Flat View Zoomed Out](https://github.com/thingsapart/web_xr_vnc/blob/main/docs/flat.jpeg?raw=true)
+
+![Full View Curved](https://github.com/thingsapart/web_xr_vnc/blob/main/docs/full_view.jpeg?raw=true)
+
+![The Basic Menu](https://github.com/thingsapart/web_xr_vnc/blob/main/docs/menu.jpeg?raw=true)
+
+
+# Keyboard Shortcuts
+
+* Shift+Alt+Meta and drag mouse => pan view,
+* Shift+Alt+Meta and scroll up/down => zoom view.
 
 # Pre-requisites
 
